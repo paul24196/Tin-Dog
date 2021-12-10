@@ -1,0 +1,175 @@
+body {
+  font-family: "Montserrat";
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 15% 8%;
+}
+
+h1 {
+  font-family: "Montserrat-Black", sans-serif;
+  /* font-family: Montserrat-Black; */
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.5;
+  padding: 5% 15% 0;
+}
+
+h3 {
+  font-family: "Montserrat-Bold"
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Navigation bar */
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  /* padding-left: 1rem; */
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+/* download button */
+
+.db {
+  margin: 5% 3% 5% 0;
+}
+
+/* Text Image */
+
+.ti {
+  width: 18%;
+  transform: rotate(30deg);
+  position: absolute;
+  /* top: 150px; */
+  right: 420px;
+
+}
+
+/* 2 page icons */
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+  }
+
+
+.fb {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+
+/* Testimonials Section */
+
+  #testimonials {
+    background-color: #ef8172;
+    text-align: center;
+    color: #fff;
+  }
+
+  .test-img {
+    margin: 20px;
+    border-radius: 100%;
+    width: 5%;
+  }
+
+  .carousel-iteam {
+    padding: 7% 15%;
+  }
+
+#press {
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.prees-logo {
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+  #pricing {
+    padding: 100px;
+    text-align: center;
+  }
+
+  /* Footer Section */
+
+  #cta {
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+    padding: 5% 5% 0 ;
+
+
+  }
+
+  .ctaf {
+    font-family: "Montserrat-Bold";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    width: 60%;
+    margin: auto;
+  }
+
+  #footer {
+    text-align: center;
+    padding-top: 100px;
+  }
+
+
+
+
+/* Media Query */
+
+@media (max-width: 1260px) {
+  .ti {
+    position: static;
+    width: 50%;
+      transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
